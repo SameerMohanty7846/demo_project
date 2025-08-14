@@ -1,0 +1,10 @@
+.userDiv{
+    background-color: skyblue;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+.outerdiv{
+    display: flex;
+    justify-content: center;
+}
