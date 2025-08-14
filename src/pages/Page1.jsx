@@ -63,7 +63,35 @@ const Page1 = () => {
         </div>
 
         <div>
-            <input type="text" />
+            <h3>Enter Current Date</h3>
+            <input type="date"
+              
+              name='currentDate'
+              value={formData.currentDate}
+              onChange={handleChange}
+            />
+        </div>
+
+        <div>
+            <h3>Enter Current TIme</h3>
+            <input type="time"
+              name='time'
+              value={formData.time}
+              onChange={handleChange}
+            />
+        </div>
+
+        <div>
+            <h3>Select COlor</h3>
+            <input type="color"
+             name='color'
+             value={formData.color}
+             onChange={handleChange}
+            />
+        </div>
+
+        <div>
+            <button type='submit'>SUBMIT</button>
         </div>
 
 
