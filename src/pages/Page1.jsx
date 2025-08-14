@@ -47,7 +47,7 @@ const Page1 = () => {
         <div>
             <input type="password"
              placeholder='Enter Password'
-             name='password'
+             name='password' 
              value={formData.password}
              onChange={handleChange}
             />
