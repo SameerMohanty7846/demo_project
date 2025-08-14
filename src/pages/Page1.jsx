@@ -20,6 +20,15 @@ const Page1 = () => {
     const handleSubmit=(e)=>{
         e.preventDefault();
         console.log(JSON.stringify(formData))
+        setFormData({
+        username:'',
+        phone:'',
+        password:'',
+        email:'',
+        currentDate:'',
+        time:'',
+        color:''
+    })
     }
   return (
     <div>
